@@ -1,0 +1,129 @@
+body {
+	background: url('https://www.dropbox.com/s/nu3o6aldwautxdf/bg-space.jpg?raw=1') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  	background-color:#333;
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	font-size: 18px;
+}
+
+nav.navbar {
+	height: 4em;
+}
+
+h2, h3 {
+	margin-top: 0.5em;
+}
+
+.main {
+	background-color: #ababab;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.name {
+	display: inline-block;
+	font-weight: bold;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.btn-circle {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	line-height: 2em;
+	width: 3em;
+	border-radius: 50%;
+}
+
+.smolpic {
+	border-radius: 50%;
+	height: 3em;
+	width: 3em;
+/* 	margin-bottom: 1.5em; */
+}
+
+.profpic {
+	border-radius: 50%;
+	width: 18em;
+}
+
+.port {
+	display: block;
+}
+
+.portpic {
+	border-radius: 50%;
+	width: 12.5em;
+	height: 12.5em;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+hr.glyph {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.glyph:after {
+	font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ababab;
+}
+
+hr.glyph.personal:after {
+	content: '\f2bd';
+}
+
+hr.glyph.education:after {
+	content: '\f19d';
+}
+
+hr.glyph.work:after {
+	content: '\f0b1';
+}
+
+hr.glyph.skills:after {
+	content: '\f085';
+}
+
+hr.glyph.spoken:after {
+	content: '\f0e5';
+}
+
+hr.glyph.code:after {
+	content: '\f120';
+}
+
+hr.glyph.analog:after {
+	content: '\f040';
+}
+
+hr.glyph.tools:after {
+	content: '\f0ad';
+}
+
+hr.glyph.hobby:after {
+	content: '\f11b';
+}
+
+hr.glyph.portfolio:after {
+	content: '\f07c';
+}
+
+hr.glyph.quotes:after {
+	content: '\f10d';
+}
